@@ -1,0 +1,73 @@
+#main {
+  overflow: hidden;
+}
+
+header p {
+max-width: 600px;
+margin: 0 auto;
+line-height: 22px;
+}
+
+header p a,
+header p a:visited {
+text-decoration: none;
+color: #4281f5;
+}
+
+#main li {
+width: 200px;
+background-color: #ffffff;
+border: 1px solid #dddddd;
+}
+
+#main li a {
+  font-weight: 200;
+  text-align: left;
+  box-shadow: none;
+  color: #000000;
+  font-size: 0.8em;
+  line-height: 16px;
+  height: auto;
+  background-color: transparent;
+  border: 0px;
+  display: block;
+  width: 200px;
+  position: relative;
+  display: block;
+}
+
+#main li a:hover {
+color: #4281f5;
+}
+
+#main li a span {
+position: absolute;
+bottom: 20px;
+left: 15px;
+right: 15px;
+display: block;
+color: #666666;
+}
+
+#main li a b {
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+
+/**
+ * Grid items animation
+ */
+#tiles li {
+  -webkit-transition: all 0.3s ease-out;
+     -moz-transition: all 0.3s ease-out;
+       -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
+
+.wookmark-placeholder {
+  -webkit-transition: all 0.3s ease-out;
+     -moz-transition: all 0.3s ease-out;
+       -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
